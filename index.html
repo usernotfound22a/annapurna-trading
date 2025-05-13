@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Annapurna Trading - PureFlow Water Filters</title>
+    <meta name="description" content="Annapurna Trading - Your trusted partner for water solutions in Pokhara, Nepal. We provide quality water filters, RO systems, and water dispensers.">
+    <meta name="keywords" content="water filter, RO system, water purifier, Pokhara, Nepal, Annapurna Trading">
+    <meta name="author" content="Annapurna Trading">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="images/annapurna logo.png">
+    <link rel="apple-touch-icon" href="images/annapurna logo.png">
+    <title>Annapurna Trading - Water Solutions in Pokhara</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
     <header>
         <nav>
             <div class="logo">
-                <img src="images/annapurna-logo.png" alt="Annapurna Trading Logo" class="logo-img">
+                <img src="images/annapurna logo.png" alt="Annapurna Trading Logo" class="logo-img">
                 <h1>Annapurna Trading</h1>
                 <span class="subtitle">PureFlow Water Filters</span>
             </div>
@@ -29,12 +45,45 @@
         </nav>
     </header>
 
+    <section class="image-slideshow">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="images/ro-purifier.jpg" alt="RO Water Purifier">
+                <div class="slide-content">
+                    <h2>RO Water Purifier</h2>
+                    <p>Advanced 7-stage RO purification system with UV protection</p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="images/commercial-filter.jpg" alt="Commercial Water Filter">
+                <div class="slide-content">
+                    <h2>Commercial Water Filter</h2>
+                    <p>Heavy-duty filtration system for offices and commercial spaces</p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="images/industrial-system.jpg" alt="Industrial Water System">
+                <div class="slide-content">
+                    <h2>Industrial Water System</h2>
+                    <p>High-capacity system for factories and large facilities</p>
+                </div>
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
+        </div>
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1>Pure Water, Pure Life</h1>
-                <p>Experience the difference with our advanced water filtration systems</p>
-                <a href="products.html" class="cta-button">Explore Products</a>
+                <h1>Welcome to Annapurna Trading</h1>
+                <p>Your Trusted Partner for Quality Water Solutions in Pokhara</p>
+                <a href="products.html" class="cta-button">Explore Our Products</a>
             </div>
         </section>
 
@@ -43,18 +92,18 @@
             <div class="feature-grid">
                 <div class="feature-card">
                     <i class="fas fa-filter"></i>
-                    <h3>Advanced Filtration</h3>
-                    <p>State-of-the-art technology for pure water</p>
+                    <h3>Quality Products</h3>
+                    <p>Premium water filters and purification systems</p>
                 </div>
                 <div class="feature-card">
                     <i class="fas fa-certificate"></i>
-                    <h3>Certified Quality</h3>
-                    <p>All products meet international standards</p>
+                    <h3>Expert Service</h3>
+                    <p>Professional installation and maintenance</p>
                 </div>
                 <div class="feature-card">
                     <i class="fas fa-tools"></i>
-                    <h3>Expert Service</h3>
-                    <p>Professional installation and maintenance</p>
+                    <h3>Local Support</h3>
+                    <p>Dedicated service in Pokhara region</p>
                 </div>
             </div>
         </section>
@@ -63,8 +112,8 @@
             <div class="container">
                 <div class="animation-content">
                     <div class="animated-text">
-                        <h2>Welcome to Annapurna Trading</h2>
-                        <p>Your Trusted Partner in Water Solutions</p>
+                        <h2>Annapurna Trading</h2>
+                        <p>Your Local Water Solution Expert</p>
                     </div>
                     <div class="animated-icons">
                         <div class="icon-box">
@@ -84,10 +133,91 @@
             </div>
         </section>
 
+        <section class="water-importance">
+            <div class="container">
+                <h2>The Importance of Clean Water</h2>
+                <div class="importance-grid">
+                    <div class="importance-card">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Health Benefits</h3>
+                        <ul>
+                            <li>Supports vital body functions</li>
+                            <li>Improves digestion and metabolism</li>
+                            <li>Enhances skin health and appearance</li>
+                            <li>Boosts immune system</li>
+                            <li>Helps maintain body temperature</li>
+                        </ul>
+                    </div>
+                    <div class="importance-card">
+                        <i class="fas fa-home"></i>
+                        <h3>Daily Life Impact</h3>
+                        <ul>
+                            <li>Safe drinking water for family</li>
+                            <li>Clean water for cooking</li>
+                            <li>Better tasting food and beverages</li>
+                            <li>Reduced health risks</li>
+                            <li>Peace of mind for parents</li>
+                        </ul>
+                    </div>
+                    <div class="importance-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Protection Benefits</h3>
+                        <ul>
+                            <li>Removes harmful contaminants</li>
+                            <li>Eliminates bacteria and viruses</li>
+                            <li>Reduces waterborne diseases</li>
+                            <li>Protects against heavy metals</li>
+                            <li>Improves water clarity and taste</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="water-facts">
+                    <h3>Did You Know?</h3>
+                    <div class="facts-grid">
+                        <div class="fact-item">
+                            <span class="fact-number">60%</span>
+                            <p>of the human body is made up of water</p>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">8</span>
+                            <p>glasses of water recommended daily</p>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-number">75%</span>
+                            <p>of brain tissue is water</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="products-preview">
             <h2>Our Featured Products</h2>
             <div class="product-grid">
-                <!-- Product cards will be dynamically added here -->
+                <div class="product-card">
+                    <img src="images/product1.jpg" alt="Water Filter">
+                    <div class="product-details">
+                        <h3>Premium Water Filter</h3>
+                        <p>Advanced filtration technology for pure drinking water</p>
+                        <a href="products.html" class="cta-button">Learn More</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/product2.jpg" alt="Water Purifier">
+                    <div class="product-details">
+                        <h3>RO Water Purifier</h3>
+                        <p>Complete water purification system for your home</p>
+                        <a href="products.html" class="cta-button">Learn More</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/product3.jpg" alt="Water Dispenser">
+                    <div class="product-details">
+                        <h3>Water Dispenser</h3>
+                        <p>Modern and efficient water dispensing solutions</p>
+                        <a href="products.html" class="cta-button">Learn More</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -96,10 +226,11 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h3>Contact Us</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Pokhara, Saghaghirachowk-8</p>
+                <p><i class="fas fa-map-marker-alt"></i> Pokhara, Saghaghirachowk-8, Nepal</p>
                 <p><i class="fas fa-phone"></i> 061-543907</p>
                 <p><i class="fas fa-mobile-alt"></i> 9856023301</p>
                 <p><i class="fas fa-envelope"></i> annapurnatrading2023@gmail.com</p>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 10:00 AM - 7:00 PM, Sat: Closed</p>
             </div>
             <div class="footer-section">
                 <h3>Quick Links</h3>
@@ -112,9 +243,9 @@
             <div class="footer-section">
                 <h3>Follow Us</h3>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com/annapurnatrading" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/annapurnatrading" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/9779856023301" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
